@@ -4,7 +4,7 @@ namespace Omega\Core;
 
 use Psr\Http\Message\ServerRequestInterface;
 
-interface EnginInterface
+interface EngineInterface
 {
     /**
      * @param array $routes
