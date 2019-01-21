@@ -3,6 +3,7 @@
 namespace Omega\Core\Routes;
 
 use Omega\Core\RouteInterface;
+use Omega\Core\ControllerInterface;
 
 class SimpleRoute implements RouteInterface
 {
