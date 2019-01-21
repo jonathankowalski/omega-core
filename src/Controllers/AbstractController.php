@@ -6,6 +6,7 @@ use Omega\Core\ControllerInterface;
 use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;
 
+// @todo add RequestHandlerInterface
 abstract class AbstractController implements ControllerInterface
 {
     public function __invoke(RequestInterface $request, ResponseInterface $response) : ResponseInterface
